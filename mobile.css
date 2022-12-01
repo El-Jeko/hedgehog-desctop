@@ -1,0 +1,430 @@
+@media (width: 320px) {
+
+    .big-container {
+        padding: 0 20px;
+    }
+
+    .container {
+        max-width: 1200px;
+        padding: 0 20px;
+    }
+
+    .header {
+        padding-top: 85px;
+        margin-bottom: 70px;
+        background:
+            url('mobile/hero-mob-img.png') right 60% no-repeat,
+            url('mobile/Subtract.png') left top no-repeat;
+    }
+
+    .header-menu {
+        order: -1;
+    }
+
+    .burger-menu {
+        margin-right: 85px;
+        display: block;
+        width: 25px;
+        height: 15px;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        background-image: url('mobile/burger.png');
+        background-repeat: no-repeat;
+    }
+
+    .header-top {
+        padding: 20px 20px;
+    }
+
+    .header-logo {
+        width: 56px;
+    }
+
+    .header-menu {
+        margin-right: 0;
+    }
+
+    .menu-list {
+        display: none;
+    }
+
+    .header-phone-number {
+        display: none;
+    }
+
+    .header-mobile-number {
+        margin-right: 15px;
+        display: block;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background-image: url('mobile/mobile-phone.png'), linear-gradient(to bottom, #FFEDCE, #B0D3CE);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .product-number {
+        width: 12px;
+        height: 12px;
+        font-size: 8px;
+    }
+
+    .basket-btn {
+        width: 32px;
+        height: 25px;
+        background-size: contain;
+    }
+
+    .header-content {
+        text-align: left;
+        margin-bottom: 50px;
+    }
+
+    .hero-pic {
+        display: none;
+    }
+
+    .hero-pic-mobile {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .first-hero-description {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .second-hero-description {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .hero-button {
+        padding: 20px 90px;
+    }
+
+    .promo-list {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .promo-item {
+        padding-top: 0;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .promo-item:first-child {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .promo-item:first-child .promo-description {
+        max-width: 100px;
+    }
+
+    .promo-item:nth-child(2) {
+        margin: 0;
+        margin-right: 20px;
+    }
+
+    .promo-circle {
+        width: 90px;
+        height: 90px;
+    }
+
+    .circle-one {
+        background-image: url('mobile/openmoji_hedgehog.png');
+    }
+
+    .circle-two {
+        background-image: url('mobile/la_syringe-solid.png');
+    }
+
+    .circle-three {
+        background-image: url('mobile/ant-design_heart-twotone.png');
+    }
+
+    .promo-title {
+        max-width: 105px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .promo-description {
+        margin: 0;
+        max-width: 125px;
+        font-size: 10px;
+    }
+
+    .header-bottom::before {
+        display: none;
+    }
+
+    .header-bottom::after {
+        right: -22px;
+        bottom: 50%;
+        width: 320px;
+        height: 210px;
+    }
+
+    .container-mobile {
+        padding-right: 0;
+    }
+
+    .swiper {
+        padding: 15px 0 0 0;
+    }
+
+    .swiper-slide {
+        max-width: 245px;
+    }
+
+    .card {
+        padding-left: 30px;
+    }
+
+    .tooltip-btn {
+        display: none;
+    }
+
+    .tooltip-container {
+        align-self: flex-end;
+        display: block;
+        position: static;
+        background: none;
+        padding: 0;
+        padding-top: 15px;
+        padding-right: 20px;
+    }
+
+    .tootips {
+        justify-content: flex-end;
+    }
+
+    .status {
+        padding-left: 20px;
+        margin-right: 20px;
+        font-size: 10px;
+        color: #195557;
+        background-image: url('mobile/la_syringe-solid-mob.png');
+    }
+
+    .heart-button {
+        padding-left: 20px;
+        font-size: 10px;
+        color: #195557;
+        background-image: url('mobile/ant-design_heart-twotone-mob.png');
+    }
+
+    .card-heading {
+        margin-bottom: 10px;
+        font-size: 30px;
+        line-height: 100%;
+    }
+
+    .card-description {
+        margin-bottom: 5px;
+        max-width: 115px;
+        font-size: 11px;
+        line-height: 145%;
+    }
+
+    .first-card {
+        position: relative;
+        background: linear-gradient(135deg, #FFEDCD 90%, #ffffff 0%) no-repeat;
+    }
+
+    .first-card::before {
+        position: absolute;
+        content: '';
+        top: 130px;
+        right: -50px;
+        width: 185px;
+        height: 165px;
+        background: url('mobile/photo.png') no-repeat;
+    }
+
+    .second-card {
+        position: relative;
+        background: linear-gradient(135deg, #E2F0DF 90%, #ffffff 0%) no-repeat;
+    }
+
+    .second-card::before {
+        position: absolute;
+        content: '';
+        top: 130px;
+        right: -50px;
+        width: 185px;
+        height: 165px;
+        background:
+            radial-gradient(ellipse closest-side at 60% 60%, rgba(56, 56, 56, 0.151) 0%, rgba(237, 237, 237, 0) 100%),
+            url('mobile/63680734824-removebg-preview\ 2.png') no-repeat;
+        background-size: contain;
+    }
+
+    .first-card::after {
+        display: none;
+    }
+
+    .second-card::after {
+        display: none;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: none;
+    }
+
+    .section-form {
+        margin-bottom: 0;
+    }
+
+    .form-container {
+        background-color: #EAEEEF;
+    }
+
+    .form {
+        padding: 40px 0;
+        margin-bottom: 0;
+    }
+
+    .form-top {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .form-heading {
+        margin-bottom: 25px;
+        font-size: 24px;
+        text-align: left;
+    }
+
+    .buttons-container {
+        margin-bottom: 45px;
+    }
+
+    .btn-form-top:not(:last-child) {
+        margin-bottom: 15px;
+    }
+
+    .radio-label:not(:last-child) {
+        margin-bottom: 15px;
+    }
+
+    .top-input {
+        flex-direction: column;
+    }
+
+    .form-input {
+        margin-bottom: 10px;
+    }
+
+    .form-input:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .form-textarea {
+        display: none;
+    }
+
+    .form-textarea-mobile {
+        display: block;
+        padding: 20px 25px;
+        margin-bottom: 25px;
+        font-size: 18px;
+        background-color: #f8f8f8;
+        border-radius: 8px;
+        border: none;
+        outline: none;
+        resize: none;
+    }
+
+    .form-textarea-mobile::placeholder {
+        font-family: "Raleway";
+        font-size: 14px;
+        font-weight: 400;
+        color: #195557;
+    }
+
+    .form-btn {
+        position: static;
+        padding: 25px 90px;
+        transform: none;
+    }
+
+    .form-text-container {
+        padding: 60px 0 50px 0;
+        align-items: flex-start;
+    }
+
+    .text-container-top {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 30px;
+    }
+
+    .hedgehogs-pic {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .last-hedgehogs-text {
+        margin: 0;
+        max-width: 215px;
+    }
+
+    .promotion-text {
+        text-align: left;
+    }
+
+    .footer-top {
+        flex-wrap: wrap;
+    }
+
+    .logo-menu-container {
+        flex-grow: 1;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-right: 0;
+    }
+
+    .footer-logo-link {
+        margin-bottom: 60px;
+    }
+
+    .footer-menu-list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-menu-item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .social-container {
+        align-self: flex-start;
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .social-link:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .social-link:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .footer-phone-number {
+        margin-top: 55px;
+    }
+
+    .footer-text-description {
+        max-width: 265px;
+        font-size: 11px;
+    }
+}
